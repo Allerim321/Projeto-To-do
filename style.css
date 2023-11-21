@@ -1,0 +1,31 @@
+html::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(75, 47, 51);
+}
+
+.navbar{
+    color: white;
+    padding-bottom: 50px;
+    margin-top:1px;
+}
+
+.botao{
+    color: #ffffff;
+    background-color: rgb(75, 47, 51);
+    border: 1px #ffffff solid;
+}
+
+.fechar{
+    color: #ffffff;
+    background-color:  rgb(75, 47, 51);
+}
+
+.salvar{
+    background-color: #ffffff;
+    color: rgb(75, 47, 51);
+    border: 1px  rgb(75, 47, 51) solid;
+}
